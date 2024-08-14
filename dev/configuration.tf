@@ -21,16 +21,3 @@ terraform {
   }
 }
 
-provider "spacelift" {
-  api_key_endpoint = "https://phandinhloc.app.spacelift.io"
-  api_key_id       = "<api-key-id>"
-  api_key_secret   = "<api-key-secret>"
-}
-
-data "spacelift_account" "this" {
-}
-
-output "account_name" {
-  value = data.spacelift_account.this.name
-}
-
