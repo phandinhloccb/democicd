@@ -17,7 +17,7 @@ module "network" {
 
 
   sg_alb_rules = {
-    "rule_1" = ["egress", 0, 0, "-1", null, ["0.0.0.0/0"], ""],
+    "rule_1" = ["egress", 0, 0, "-1", null, ["0.0.0.0/0"], "a"],
     "rule_2" = ["ingress", 80, 80, "tcp", null, ["116.94.0.124/32"], ""],
     "rule_3" = ["ingress", 443, 443, "tcp", null, ["116.94.0.124/32"], ""],
   }
