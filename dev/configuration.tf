@@ -11,11 +11,11 @@ terraform {
     }
   }
 
-  backend "s3" {
-    bucket  = "tfstate.demo-cicd"
-    region  = "ap-northeast-1"
-    key     = "dev.tfstate"
-    profile = ""
-  }
+  # backend "s3" {
+  #   bucket  = "tfstate.demo-cicd"
+  #   region  = "ap-northeast-1"
+  #   key     = "dev.tfstate"
+  #   profile = ""
+  # }
 }
 
