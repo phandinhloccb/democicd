@@ -11,8 +11,6 @@ terraform {
     }
   }
 
-  required_version = "~> 1.3.4"
-
   backend "s3" {
     bucket  = "tfstate.demo-cicd"
     region  = "ap-northeast-1"
