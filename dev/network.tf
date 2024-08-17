@@ -13,7 +13,7 @@ module "network" {
   rds_private_1c_subnet_cidr_block         = "10.1.129.0/24"
   redis_private_1a_subnet_cidr_block       = "10.1.130.0/24"
   redis_private_1c_subnet_cidr_block       = "10.1.131.0/24"
-  bastion_host_public_1a_subnet_cidr_block = "10.1.194.0/24"
+  bastion_host_public_1a_subnet_cidr_block = "10.1.190.0/24"
 
 
   sg_alb_rules = {
