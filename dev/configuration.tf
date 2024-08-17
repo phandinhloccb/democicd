@@ -10,12 +10,9 @@ terraform {
       version = "~> 0.1.30"
     }
   }
+}
 
-  # backend "s3" {
-  #   bucket  = "tfstate.demo-cicd"
-  #   region  = "ap-northeast-1"
-  #   key     = "dev.tfstate"
-  #   profile = ""
-  # }
+provider "aws" {
+  region = "ap-northeast-1"
 }
 
